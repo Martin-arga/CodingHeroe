@@ -1,8 +1,6 @@
 :root {
     --colorTextos: #49454567;
 }
-
-
 *,
 ::before,
 ::after {
@@ -10,23 +8,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Roboto';
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background-image: url(../assets/images/Programadores-en-Argentina.jpg);
+    background-size: cover;
     height: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 h1{
     text-align: center;
     font-weight: 700;
 }
-
 form{
     background: #fff;
     padding: 40px 0;
